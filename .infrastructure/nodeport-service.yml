@@ -9,5 +9,5 @@ spec:
     app: todolist
   ports:
     - port: 80
-      targetPort: 8000
+      targetPort: 8080
       nodePort: 30007        # допустимий діапазон 30000-32767

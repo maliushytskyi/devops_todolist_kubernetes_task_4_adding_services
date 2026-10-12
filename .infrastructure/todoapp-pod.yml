@@ -34,7 +34,7 @@ spec:
 apiVersion: v1
 kind: Pod
 metadata:
-  name: todoapp-2          # єдина відмінність: ім'я
+  name: todoapp-2
   namespace: todoapp
   labels:
     app: todolist
