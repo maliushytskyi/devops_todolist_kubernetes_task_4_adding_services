@@ -4,9 +4,9 @@ metadata:
   name: todoapp-clusterip
   namespace: todoapp
 spec:
-  type: ClusterIP            # доступний лише всередині кластера (тип за замовчуванням)
+  type: ClusterIP
   selector:
-    app: todolist            # балансує між усіма подами з цим лейблом (обидва)
+    app: todolist
   ports:
-    - port: 80               # порт сервісу
-      targetPort: 8000       # порт контейнера
+  - port: 80
+    targetPort: 8080
